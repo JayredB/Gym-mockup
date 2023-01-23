@@ -1,0 +1,29 @@
+.welcome-text {
+    color: aqua;
+}
+
+
+body {
+    height: 100px;
+}
+
+
+.landing-wrapper {
+    display:flex;
+    justify-content: center;
+}
+
+
+ .welcome {
+    text-align: center;
+    background-color:grey;
+    width: 840px;
+    height: 230px;
+    background-color: rgba(173, 173, 173, 0.301);
+
+ }
+
+.landing-paragraph {
+    color:yellow;
+    width: 800px;
+}

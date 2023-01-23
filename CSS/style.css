@@ -1,0 +1,193 @@
+* {
+    /*border: 1px solid red;*/
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+body {
+    background-color:black;
+    height:100em;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 100px; 
+}
+
+
+.nav-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    text-size-adjust: 0px;
+}
+
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+
+.nav-item {
+    width: 100%;
+    height: 100%
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(232, 248, 8);
+}
+
+
+a:hover {
+    color: aqua;
+}
+
+
+.ac {
+    font-size: 50px;
+}
+
+
+.background-img {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+
+.main-msg {
+    z-index: 1;
+    margin:0px;
+    height: 9em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 2em;
+
+}
+
+
+.about {
+    z-index: 1;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(232, 248, 8);
+    display: flex;
+    font-size: 3em;
+}
+
+
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+
+.wrapper {
+    display: flex; 
+    
+}
+
+
+.box {
+    max-width: 400px;
+    margin: 50px;
+    height: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.grid-image {
+    object-fit: cover;
+    max-width: 100%;
+    height: 500px;
+}
+
+
+#wa {
+    width: 100%;
+}
+
+
+.grid-text {
+    text-align: center; 
+}
+
+
+p {
+    margin:20px;
+}
+
+
+.foot-container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 250px;
+}
+
+
+.footinfo {
+    color: rgb(232, 248, 8); 
+    float: left;
+    width: 100%;
+    font: 0.6em;
+}
+
+
+.tiny {
+    color:rgb(232, 248, 8);
+    margin: 1em;
+}
+
+
+.foothead {
+    color:rgb(232, 248, 8);
+    font-size: 3em;
+}
+
+
+.foot-text {
+    text-align: center;
+    padding: 100px;
+    height: 300px;
+    padding-top: 40px;
+}

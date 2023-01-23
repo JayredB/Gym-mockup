@@ -1,0 +1,100 @@
+body {
+    height: 120em;
+}
+
+
+.login {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.login-box {
+    border-radius:25px;
+    background-color: rgb(232, 248, 8);
+    margin: auto;
+    height: 50%;
+    width: 250px;
+    padding: 10px;
+}
+
+.password {
+    padding-top: 10px;
+}
+
+.forgot-password {
+    display:inline-block;
+    margin-left: 70px;
+    margin-bottom: 0px;
+    cursor: pointer; 
+
+}
+
+.input {
+    width: 240px;
+    margin-top: 10px;
+}
+
+.create-account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.ca-button {
+    margin: 0px;
+    color: rgb(232, 248, 8);
+    background-color:rgb(0, 0, 0);
+    border-radius:2px;
+    height:30px;
+    cursor: pointer; 
+}
+
+.ca-button:hover {
+    color: aqua;
+}
+
+.line {
+    width: 50%;  
+    line-height: 5px;
+    border: 1px solid rgb(232, 248, 8); 
+    margin: 2px; 
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.member-benifits {
+    text-align: center;
+    background-color: rgb(232, 248, 8);
+    height: 900px;
+}
+
+.member-info {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.member-img {
+    padding: 40px;
+    height: 450px;
+    width: 450px;
+    border-radius: 300px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mb-list {
+    display:inline-block;
+    text-align: left;
+}
+li {
+    list-style-type: square;
+    font-size: large;
+    padding: 5px;
+    font-style: italic;
+}
